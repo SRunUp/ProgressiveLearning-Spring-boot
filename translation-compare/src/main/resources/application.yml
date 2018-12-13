@@ -1,0 +1,9 @@
+spring:
+  jackson:
+    property-naming-strategy: CAMEL_CASE_TO_LOWER_CASE_WITH_UNDERSCORES
+
+# Swagger api
+swagger:
+  exclude-path: /error
+
+esc-table: \\a|\\f|\\f\\a|\n|\r|\n\r|\r\n|\\f\r|\r\\a|\u0001|-\n\r
